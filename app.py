@@ -304,3 +304,15 @@ elif app_mode == "🔢 LCM & HCF Pro":
                 
         except:
             show_error("Please enter valid comma-separated numbers! (e.g. 12, 15)")
+
+
+
+# --- FOOTER / CREDIT SECTION ---
+st.markdown("""
+    <div style='text-align: center; margin-top: 60px; padding-bottom: 20px;'>
+        <hr style='border: 1px solid rgba(0, 242, 254, 0.2); width: 60%; margin: auto; margin-bottom: 15px;'>
+        <p style='color: #aaaaaa; font-size: 18px; font-weight: bold;'>
+            Created with 💻 by <span style='color: #ff00cc; font-size: 24px; text-shadow: 0 0 10px rgba(255,0,204,0.6);'>Anuj Kumar</span>
+        </p>
+    </div>
+""", unsafe_allow_html=True)
